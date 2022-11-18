@@ -69,3 +69,18 @@ func ValidStringNotEmpty(str string) HttpErr {
 		results: false,
 	}
 }
+
+// func ValidStringNotEmpty2(str ... string) HttpErr {
+
+// 	if str == "" {
+// 		return HttpError{
+// 			message: "The string must not be empty!",
+// 			code:    http.StatusNotFound,
+// 			errors:  "The string is Empty!!!",
+// 			results: true,
+// 		}
+// 	}
+// 	return HttpError{
+// 		results: false,
+// 	}
+// }
